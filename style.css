@@ -1,0 +1,51 @@
+main{
+    background-color: yellow;
+    max-width: 500px;
+}
+
+header {
+    display: flex;
+    justify-content:space-between;
+}
+
+#login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 150px;
+    margin: 50px;
+    color: red;
+    text-decoration: none;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#sign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 150px;
+    margin: 50px;
+    color: red;
+    text-decoration: none;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    color: blue;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-style: italic;
+    
+}
+
+#name, #exp{
+    width: 150px;
+}
+.button2 {
+    display: flex; 
+    margin-left: 120px;
+}
